@@ -17,7 +17,7 @@ Serial.begin(9600);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0, 0);
     display.println("HELLO YASH BHAI WELCOME TO ARDUINO");
-    display.println("HELOO YASH BHAI WELCOME");
+    display.println("HELLO YASH BHAI WELCOME");
     display.display();
 }
 void loop() {
